@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btnAddDialog">Add New +</button>
+    <div class="box"></div>
+
+    <dialog class="dialogAdd">
+        <div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;">
+            <h3>Add User</h3>
+            <h1 class="closeAdd">&times;</h1>
+        </div>
+        <form class="formAdd">
+            <input type="text" placeholder="Enter your name..." class="inpAddName" name="inpAddName" required><br><br>
+            <input type="file" placeholder="Enter your img..." class="inpAddImg" name="inpAddImg" required><br><br>
+            <input type="text" placeholder="Enter your age..." class="inpAddName" name="inpAddAge" required><br><br>
+            <button class="btnAdd" type="submit">Add</button>
+            <button class="btnCancelAdd">Cancel</button>
+        </form>
+    </dialog>
+
+    <dialog class="dialogEdit">
+        <div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;">
+            <h3>Edit User</h3>
+            <h1 class="closeEdit">&times;</h1>
+        </div>
+        <form class="formEdit">
+            <input type="text" placeholder="Enter your name..." class="inpAddName" name="inpEditName" required><br><br>
+            <input type="file" placeholder="Enter your img..." class="inpAddImg" name="inpEditImg" required><br><br>
+            <input type="text" placeholder="Enter your age..." class="inpAddName" name="inpEditAge" required><br><br>
+            <button class="btnAdd" type="submit">Add</button>
+            <button class="btnCancelEdit">Cancel</button>
+        </form>
+    </dialog>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./file.js/main.js" type="module"></script>
+</body>
+</html>

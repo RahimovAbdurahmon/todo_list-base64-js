@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.div{
+    margin: 20px;
+    padding: 30px;
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+.btnAddDialog{
+    font-size: 17px;
+    padding: 3px 15px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 20px;
+}
+.btnAddDialog:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.img{
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    margin-top: -55px;
+    margin-left: 1100px;
+    border-radius: 10px;
+}
+.age{
+    margin: 10px 0px;
+}
+.btnDelete{
+    font-size: 16px;
+    padding: 3px 15px;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.btnDelete:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.dialogAdd{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    padding-right: 0px;
+    margin: 200px;
+    margin-left: 450px;
+}
+.closeAdd{
+    margin-right: 30px;
+}
+.closeAdd:hover{
+    color: gray;
+    cursor: pointer;
+}
+.inpAddName{
+    width: 220px;
+    padding: 10px 20px;
+}
+.inpAddImg{
+    font-size: 16px;
+}
+.btnAdd{
+    font-size: 16px;
+    padding: 3px 10px;
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+.btnAdd:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.btnCancelAdd{
+    font-size: 16px;
+    padding: 3px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btnCancelAdd:hover{
+    background-color: rgb(229, 229, 235);
+    cursor: pointer;
+}
+.btnEdit{
+    font-size: 16px;
+    padding: 3px 15px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.btnEdit:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.dialogEdit{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    padding-right: 0px;
+    margin: 200px;
+    margin-left: 450px;
+}
+.closeEdit{
+    margin-right: 30px;
+}
+.closeEdit:hover{
+    color: gray;
+    cursor: pointer;
+}
+.btnCancelEdit{
+    font-size: 16px;
+    padding: 3px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btnCancelEdit:hover{
+    background-color: rgb(229, 229, 235);
+    cursor: pointer;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
